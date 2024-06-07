@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Upload Image</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+<div>
+    <h2>Upload TIFF Image</h2>
+    <form method="POST" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="file" accept=".tiff, .tif"/>
+        <button type="submit">Upload</button>
+    </form>
+    <div th:if="${message}" th:text="${message}"></div>
+</div>
+</body>
+</html>
