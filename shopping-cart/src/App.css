@@ -1,0 +1,39 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, sans-serif;
+}
+.header {
+  background-color: #111111;
+  color: rgb(249, 246, 246);
+  padding: 10px; /* Increase padding for better spacing */
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: static; /* Make the header static */
+}
+
+
+.header h1 {
+  margin: 0 auto; /* Center the h1 element horizontally */
+}
+
+.cart-info {
+  display: flex;
+  align-items: center;
+}
+
+.cart-info img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 20px;
+}

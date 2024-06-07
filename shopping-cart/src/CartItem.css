@@ -1,0 +1,23 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.item-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.item-details .name,
+.item-details .price,
+.item-details .quantity {
+  margin: 2px 0;
+}
