@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Center content */
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333; /* Dark gray text */
+}
+
+h2 {
+    color: #555; /* Slightly darker gray text */
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+th, td {
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: left;
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray background for table headers */
+    color: #333; /* Dark gray text for table headers */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternate row background color */
+}
+
+button {
+    background-color: #007bff; /* Bootstrap primary button color */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
